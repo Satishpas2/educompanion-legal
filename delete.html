@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your data — EduCompanion</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 5rem;
+    color: #1a1a1a; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #14141a; }
+    a { color: #9db4ff; }
+    th { background: #22222c !important; }
+    td, th { border-color: #33333f !important; }
+    code { background: #22222c; }
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; }
+  h2 { margin-top: 2.2rem; font-size: 1.3rem; }
+  h3 { margin-top: 1.6rem; font-size: 1.05rem; }
+  a { color: #2b50c8; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; display: block; overflow-x: auto; }
+  td, th { border: 1px solid #ddd; padding: .5rem .7rem; text-align: left; vertical-align: top; }
+  th { background: #f4f4f7; }
+  blockquote {
+    border-left: 3px solid #c8c8d0; margin: 1.2rem 0; padding: .2rem 0 .2rem 1rem;
+    color: #555;
+  }
+  @media (prefers-color-scheme: dark) { blockquote { color: #aaa; } }
+  code { background: #f0f0f4; padding: .1rem .3rem; border-radius: 3px; font-size: .9em; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 2rem 0; }
+  footer { margin-top: 3rem; font-size: .9rem; color: #666; }
+</style>
+</head>
+<body>
+<h1>Deleting your EduCompanion data</h1>
+<blockquote>
+<p>Published at <strong>https://satishpas2.github.io/educompanion-legal/delete</strong>.
+Enter that URL in the Play Console under <em>App content → Data safety → Data
+deletion</em>. Google requires a deletion route that works for someone who has
+already uninstalled the app, which is why this page exists separately from
+the in-app button.</p>
+</blockquote>
+<p>EduCompanion is used by children, and you can remove everything it holds about
+your child at any time. There is no waiting period and nothing is kept back.</p>
+<h2>Option 1 — in the app (immediate)</h2>
+<ol>
+<li>Open EduCompanion.</li>
+<li>Tap the <strong>⚙ settings</strong> icon at the top left.</li>
+<li>Answer the multiplication question (this is there so a child cannot do
+   this by accident).</li>
+<li>Tap <strong>Account</strong>.</li>
+<li>Tap <strong>Delete my data</strong>, then confirm.</li>
+</ol>
+<p>This deletes, for <strong>every child on the account</strong>:</p>
+<ul>
+<li>every chapter you added, including the text read from the pages and any
+  diagrams;</li>
+<li>every lesson and the full conversation, including what your child said;</li>
+<li>every stored recording and every piece of spoken audio;</li>
+<li>the account itself.</li>
+</ul>
+<p>The app carries on working afterwards, as if newly installed.</p>
+<h2>Option 2 — by email</h2>
+<p>If you have uninstalled the app, or cannot get to the button, write to:</p>
+<p><strong>contact@artinsat.com</strong></p>
+<p>Send it from the email address on the account. If you never made an account,
+tell us roughly when the app was used and the child's first name as entered,
+and we will find and delete the records.</p>
+<p>We will confirm within <strong>30 days</strong>.</p>
+<h2>What is deleted, and what is not</h2>
+<p><strong>Deleted immediately:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Where it lived</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chapters, page text, diagrams</td>
+<td>Our server</td>
+</tr>
+<tr>
+<td>Lessons, questions, answers, progress</td>
+<td>Our server</td>
+</tr>
+<tr>
+<td>Recordings of your child's voice, and the tutor's spoken audio</td>
+<td>Our server</td>
+</tr>
+<tr>
+<td>Your account and sign-in details</td>
+<td>Firebase Authentication</td>
+</tr>
+<tr>
+<td>Everything the app stored on the phone</td>
+<td>Your device</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Kept, and why:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Why</th>
+<th>For how long</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reports you sent about something the tutor said</td>
+<td>To fix the problem for other children. These hold the tutor's words, not your child's.</td>
+<td><strong>12 months</strong></td>
+</tr>
+<tr>
+<td>Basic server logs (times and error codes, no lesson content)</td>
+<td>Security and diagnosing faults</td>
+<td><strong>30 days</strong></td>
+</tr>
+<tr>
+<td>Database backups</td>
+<td>Recovering from failure. A deleted account disappears from these as they age out.</td>
+<td><strong>7 days</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Photographs of textbook pages are never uploaded — they are read on the phone
+itself — so there is nothing of that kind on our servers to delete. Removing
+the app removes them from the device.</p>
+<h2>Questions</h2>
+<p><strong>contact@artinsat.com</strong></p>
+<footer><a href="./">EduCompanion</a> &middot; contact@artinsat.com</footer>
+</body>
+</html>
